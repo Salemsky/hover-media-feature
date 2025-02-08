@@ -1,0 +1,39 @@
+{
+  "name": "hover-media-feature",
+  "version": "1.0.0",
+  "description": "CSS-in-JS utility (402b) for media queries based on device capabilities",
+  "repository": "https://github.com/Salemsky/hover-media-feature.git",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "index.d.ts",
+  "keywords": [
+    "hover media",
+    "hover media feature",
+    "css-in-js",
+    "utility"
+  ],
+  "author": "Salemsky",
+  "license": "MIT",
+  "files": [
+    "*.d.ts",
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "test": "node test.mjs",
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "terser": "^5.37.0"
+  }
+}
