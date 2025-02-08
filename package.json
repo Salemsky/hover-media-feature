@@ -1,6 +1,6 @@
 {
   "name": "hover-media-feature",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CSS-in-JS utility (384b) for media queries based on device capabilities",
   "repository": "https://github.com/Salemsky/hover-media-feature.git",
   "main": "dist/index.js",
